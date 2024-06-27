@@ -1,10 +1,10 @@
 import React from 'react'
-
+import cat from '../images/Maine Coon Ohio.png'
 const About = () => {
   return (
     <div className="container">
     <div className="image col-6">
-      <img src="./images/Maine Coon Ohio.png" alt="Maine Coon Cat" />
+      <img src={cat} alt="Maine Coon Cat" />
     </div>
     <div className="col-6">
       <h1>Maine Coon Cats</h1>

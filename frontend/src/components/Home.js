@@ -1,58 +1,32 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
+import img1 from '../images/indexpic1.jpg'
+import img2 from '../images/indexpic2.jpg'
+import img3 from '../images/indexpic3.webp'
+import img4 from '../images/indexpic4.jpg'
+import img5 from '../images/indexpic5.jpg'
 const Home = () => {
   return (
-    <div><h1>Click the burger menu to see the magic.</h1>
-<input type="checkbox" id="burger-toggle" />
-    <label for="burger-toggle" class="burger-menu">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </label>
-    <div class="menu">
-      <div class="menu-inner">
-        <ul class="menu-nav">
-          <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                <div>Home</div>
-              </span></a></li>
-          <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                <div>About</div>
-              </span></a></li>
-          <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                <div>Service</div>
-              </span></a></li>
-          <li class="menu-nav-item"><a class="menu-nav-link" href="#"><span>
-                <div>Team</div>
-              </span></a></li>
-        </ul>
-        <div class="gallery">
-          <div class="title">
-            <p>Sora Gallery</p>
+    <section>
+    <div class="section">
+      <div class="section1">
+        <div class="img-slider">
+              <img src={img1} alt="" class="img" />
+              <img src={img2}
+                  alt="" class="img" />
+              <img src={img3} alt="" class="img" />
+              <img src={img4} alt=""
+             class="img" />
+              <img src={img5} alt=""
+                  class="img" />
           </div>
-          <div class="images">
-            <a class="image-link" href="#">
-<div className="image" data-label="Star"><img src="./home pics/55a2875e658883d7f9a21e79a8519f85.jpg" alt="" /></div>
-            </a>
-            <a class="image-link" href="#">
-<div className="image" data-label="Sun"><img src="./home pics/download.jpg" alt="" /></div>
-            </a>
-            <a class="image-link" href="#">
-<div className="image" data-label="Tree"><img src="./home pics/cdbef7d0499eac872483b4afe3dcda1f.jpg" alt="" /></div>
-            </a>
-            <a class="image-link" href="#">
-<div className="image" data-label="Sky"><img src="./home pics/mdmgphxghi881.jpg" alt="" /></div>
-            </a>
-          </div>
-        </div>
       </div>
-    </div>
-    
-    
-    
-    
-    
-    
-    </div>
+      <div class="section2">
+          <div id="market"></div>
+      </div>
+  </div>
+</section>
   )
 }
 
